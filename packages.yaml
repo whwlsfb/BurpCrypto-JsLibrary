@@ -1,10 +1,10 @@
-- name: md5
+- name: MD5
   author: Whwlsfb(https://github.com/whwlsfb/)
   engine:
     - Rhino
   path:
     - lib/md5.js
-  snippet: |
+  usecase: |
     md5($PARM$);
   example: |
     md5('123456');
