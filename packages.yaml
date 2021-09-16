@@ -9,3 +9,17 @@
   example: |
     md5('123456');
     > e10adc3949ba59abbe56e057f20f883e
+
+- name: Base64
+  author: Whwlsfb(https://github.com/whwlsfb/)
+  engine:
+    - Rhino
+  path:
+    - lib/base64.js
+  usecase: |
+    base64encode($PARM$);
+  example: |
+    base64encode('admin');
+    > YWRtaW4=
+    base64decode('YWRtaW4=');
+    > admin
