@@ -11,7 +11,8 @@ packages.yaml is the plug-in index of this project. each JS library corresponds 
 
 ### Configuration example
 ```yaml
-- name: MD5                                     # Library name, unique 
+- name: MD5                                     # Library name, unique.
+  description: MD5 Message-Digest Algorithm     # description of JS Library.
   author: Whwlsfb(https://github.com/whwlsfb/)  # Author info 
   engine:                                       # You tested and recommanded engine, multiple, such as [Rhino, JreBuiltIn, HtmlUnit]
     - Rhino

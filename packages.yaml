@@ -1,4 +1,5 @@
 - name: MD5
+  description: MD5 Message-Digest Algorithm
   author: Whwlsfb(https://github.com/whwlsfb/)
   engine:
     - Rhino
@@ -13,6 +14,7 @@
     > e10adc3949ba59abbe56e057f20f883e
 
 - name: Base64
+  description: Base64 Decode and Encode
   author: Whwlsfb(https://github.com/whwlsfb/)
   engine:
     - Rhino

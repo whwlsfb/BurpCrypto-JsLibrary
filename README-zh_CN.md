@@ -11,7 +11,8 @@ packages.yaml 是所有库的索引文件，每一个库都将对应该文件中
 
 ### 配置结构如下：
 ```yaml
-- name: MD5                                     # 库的名字，唯一的 
+- name: MD5                                     # 库的名字，唯一的
+  description: MD5 Message-Digest Algorithm     # 库的描述信息
   author: Whwlsfb(https://github.com/whwlsfb/)  # 作者信息 
   engine:                                       # 您测试通过的并且推荐使用的JS引擎，可写多个，目前可用的引擎有：[Rhino, JreBuiltIn, HtmlUnit]
     - Rhino
