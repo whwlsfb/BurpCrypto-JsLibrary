@@ -2,13 +2,14 @@
 
 BurpCrypto-JsLibrary is [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) officially confirms the supported JS library,  it can be imported online directly from the BurpCrypto.
 
+English | [简体中文](./README-zh_CN.md)
 # 📑 Project structure
 
 The `lib` folder is the unified storage directory of the JS library, you need to put all JS components in this folder.
 
 packages.yaml is the plug-in index of this project. each JS library corresponds to a yaml configuration in the file.
 
-Example
+### Configuration example
 ```yaml
 - name: MD5                                     # Library name, unique 
   author: Whwlsfb(https://github.com/whwlsfb/)  # Author info 
