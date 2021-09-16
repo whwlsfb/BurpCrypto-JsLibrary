@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name: PurgeCache
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  purgeCache:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: PurgeJsDelivrCache
+        # You may pin to the exact commit or the version.
+        # uses: fjogeleit/http-request-action@8e939c608aea2d5df19da3e8229cf035f7aa9e4c
+        uses: fjogeleit/http-request-action@v1.8.1
+        with:
+          # Request URL
+          url: "https://purge.jsdelivr.net/gh/whwlsfb/BurpCrypto-JsLibrary/packages.yaml"
+          # Request Method
+          method: "GET"
