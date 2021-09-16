@@ -4,8 +4,10 @@
     - Rhino
   path:
     - lib/md5.js
-  usecase: |
-    md5($PARM$);
+  functionCase:
+    - functionName: md5
+      useCase: |
+        md5($PARM$);
   example: |
     md5('123456');
     > e10adc3949ba59abbe56e057f20f883e
@@ -16,8 +18,13 @@
     - Rhino
   path:
     - lib/base64.js
-  usecase: |
-    base64encode($PARM$);
+  functionCase:
+    - functionName: base64encode
+      useCase: |
+        base64encode($PARM$);
+    - functionName: base64decode
+      useCase: |
+        base64decode($PARM$);
   example: |
     base64encode('admin');
     > YWRtaW4=
