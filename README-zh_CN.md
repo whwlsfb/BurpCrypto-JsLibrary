@@ -1,6 +1,6 @@
 # BurpCrypto-JsLibrary
 
-BurpCrypto-JsLibrary 是 [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) 官方确认在ExecJs模块里可正常使用的Js库，该库无需手动下载，可从插件中在线载入。
+BurpCrypto-JsLibrary 是 [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) 官方确认在ExecJs模块里可正常使用的Js库，该库无需手动下载，可在插件的后续版本中在线载入。
 
 [English](./README.md) | 简体中文
 # 📑 项目结构
